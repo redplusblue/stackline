@@ -1,0 +1,28 @@
+head,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+#root {
+  display: grid;
+  grid-template-rows: 0.1fr 1fr;
+  height: 100%;
+  width: 100%;
+  background-color: #f7f8fa;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.body-container {
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 20px;
+  margin: 20px;
+  width: calc(100% - 40px);
+  height: calc(100% - 40px);
+  background-color: #f7f8fa;
+}

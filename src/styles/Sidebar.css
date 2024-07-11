@@ -1,0 +1,58 @@
+.sidebar-container {
+  color: #333;
+  background-color: white;
+  padding: 1rem;
+  box-shadow: 0 1.6px 3.6px 0 rgb(0 0 0 / 13%), 0 0.3px 0.9px 0 rgb(0 0 0 / 11%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar-element {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .sidebar-element.active {
+  Optional: Add a background color to the active element
+} */
+
+.sidebar-element > img {
+  width: 120px;
+  height: 120px;
+}
+
+.sidebar-element > .title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+
+.sidebar-element > .subtitle {
+  font-size: 0.8rem;
+  color: #aaaaaa;
+  text-align: center;
+}
+
+.sidebar-element > hr {
+  width: 100%;
+  color: #aaaaaa;
+  opacity: 0.2;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  color: #333;
+  font-size: 0.8rem;
+}
