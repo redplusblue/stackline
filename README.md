@@ -15,4 +15,4 @@ See a live demo [here](https://redplusblue.github.io/stackline).
 
 ## License
 
-GNU 3.1
+GNU 3.0
